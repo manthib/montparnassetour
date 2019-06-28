@@ -1,6 +1,6 @@
 {
    "nav_icon": "chester_icon.png",
-   "firstPhotoId":"refectoire2",
+   "firstPhotoId":"fablab",
    "firstPhotoRotation":40,
    "soundEffects": {
       "navButton": {
@@ -49,6 +49,14 @@
                "text":"1er Etage",
                "rotationY": -32,
                "linkedPhotoId":"r1ascenseur"
+            },
+            {
+               "id": "incuresiontableau",
+               "type": "textblock",
+               "rotationY": -90,
+               "width": 1.5,
+               "height": 1.5,
+               "title": "Tableau des cours"
             }
          ]
       },
@@ -67,6 +75,22 @@
                "text":"Espace Etudiants",
                "rotationY": -120,
                "linkedPhotoId":"P00"
+            },
+            {
+               "id": "incuresionpasteur",
+               "type": "textblock",
+               "rotationY": -88,
+               "width": 1,
+               "height": 1.5,
+               "title": "Vers metro pasteur"
+            },
+            {
+               "id": "incuresionvaugirard",
+               "type": "textblock",
+               "rotationY": 100,
+               "width": 1,
+               "height": 1.5,
+               "title": "Vers metro vaugirard"
             }
          ]
       },
@@ -79,6 +103,14 @@
                "text":"retour batiment",
                "rotationY": 52,
                "linkedPhotoId":"rue"
+            },
+            {
+               "id": "incuresionassos",
+               "type": "textblock",
+               "rotationY": -75,
+               "width": 1.1,
+               "height": 1.5,
+               "title": "Espace associations"
             }
          ]
       },
@@ -192,6 +224,26 @@
                "sourceChrome": "Three-Cocktails.webm",
                "sourceSafari": "Three-Cocktails.mp4",
                "muted":true
+            },
+            {
+               "id": "incursionthereis",
+               "type": "panelimage",
+               "source": "there-hall.jpg",
+               "text": "- There is a better way -",
+               "attribution": "photo octo hall",
+               "rotationY": 30,
+               "rotationX": 0,
+               "width": 1.5,
+               "height": 1.5
+            },
+            {
+               "id": "incuresionbarbecue",
+               "type": "textblock",
+               "rotationY": -70,
+               "width": 1.5,
+               "height": 1.5,
+               "title": "Barbecue en plein air"
+
             },
             {
                "id": "ljkddjkzdln",
@@ -335,6 +387,22 @@
                "text":"espace étudiants",
                "rotationY": -90,
                "linkedPhotoId":"refectoire2"
+            },
+            {
+               "id": "incuresionlaser",
+               "type": "textblock",
+               "rotationY": 92,
+               "width": 1.1,
+               "height": 1.5,
+               "title": "Decoupeuse Laser"
+            },
+            {
+               "id": "incuresionprint3D",
+               "type": "textblock",
+               "rotationY": 30,
+               "width": 1.1,
+               "height": 1.5,
+               "title": "Imprimantes 3D"
             }
          ]
       },
@@ -347,85 +415,6 @@
                "text":"Espace étudiants",
                "rotationY": -130,
                "linkedPhotoId":"refectoire2"
-            }
-         ]
-      },
-      "M18":{
-         "rotationOffset": 0,
-         "uri":"M18.jpg",
-         "tooltips":[
-            {
-               "id": "M18tocouloir",
-               "text":"Couloir",
-               "rotationY": 45,
-               "linkedPhotoId":"couloir-r1"
-            },
-            {
-               "id": "M18tocouloir",
-               "text":"Couloir",
-               "rotationY": -36,
-               "linkedPhotoId":"couloir-r12"
-            }
-         ]
-      },
-      "M17":{
-         "rotationOffset": -100,
-         "uri":"M17.jpg",
-         "tooltips":[
-            {
-               "id": "M17tocouloir",
-               "text":"Couloir",
-               "rotationY": 165,
-               "linkedPhotoId":"couloir-r1"
-            },
-            {
-               "id": "M17tocouloir",
-               "text":"Couloir",
-               "rotationY": -104,
-               "linkedPhotoId":"couloir-r12"
-            }
-         ]
-      },
-      "M13":{
-         "rotationOffset": -100,
-         "uri":"M13.jpg",
-         "tooltips":[
-            {
-               "id": "M13tocouloir",
-               "text":"Couloir",
-               "rotationY": -130,
-               "linkedPhotoId":"couloir-r1"
-            },
-            {
-               "id": "M13tofablab",
-               "text":"Fablab",
-               "rotationY": 118,
-               "linkedPhotoId":"fablab"
-            }
-         ]
-      },
-
-      "patio":{
-         "rotationOffset": 80,
-         "uri":"patio-r1.jpg",
-         "tooltips":[
-            {
-               "id": "patiotocouloirr1",
-               "text":"Couloir",
-               "rotationY": 105,
-               "linkedPhotoId":"couloir-r1"
-            },
-            {
-               "id": "Patiotohall",
-               "text":"Hall",
-               "rotationY": 60,
-               "linkedPhotoId":"entree-r0"
-            },
-            {
-               "id": "Patiotofablab",
-               "text":"Fablab",
-               "rotationY": 120,
-               "linkedPhotoId":"fablab"
             }
          ]
       }
