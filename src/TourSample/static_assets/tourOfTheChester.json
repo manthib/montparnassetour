@@ -125,45 +125,51 @@
             }
          ]
       },
-      "couloir-r02":{
+      "r1ascenseur":{
          "rotationOffset": -30,
-         "uri":"couloir-r0.jpg",
+         "uri":"r1ascenseur.jpg",
          "tooltips":[
             {
-               "id": "couloirr0toM07",
-               "text":"Labo Energie",
-               "rotationY": 64,
-               "linkedPhotoId":"M07"
+               "id": "r1ascenseurtohall",
+               "text":"hall",
+               "rotationY": 81,
+               "linkedPhotoId":"hall"
             },
             {
-               "id": "couloirr0todetenter0",
-               "text":"Espace détente",
-               "rotationY": 151,
-               "linkedPhotoId":"detente-r0"
+               "id": "r1ascenseurtor2ascenseur",
+               "text":"2eme etage",
+               "rotationY": 10,
+               "linkedPhotoId":"r2ascenseur"
             },
             {
-               "id": "couloirr0tohall",
-               "text":"Hall",
-               "rotationY": -29,
-               "linkedPhotoId":"entree-r0"
+               "id": "r1ascenseurtor1amphi",
+               "text":"Amphi modulable",
+               "rotationY": -120,
+               "linkedPhotoId":"r1amphi"
+            },
+            {
+               "id": "r1ascenseurtor1toilette",
+               "text":"Escalier",
+               "rotationY": -87,
+               "linkedPhotoId":"r1toilette"
             }
          ]
       },
-      "M07":{
-         "rotationOffset": 80,
-         "uri":"M07.jpg",
+      "r1amphi":{
+         "rotationOffset": 0,
+         "uri":"r1amphi.jpg",
          "tooltips":[
             {
-               "id": "M07tocouloirr0",
-               "text":"Couloir RDC",
-               "rotationY": 35,
-               "linkedPhotoId":"couloir-r0"
+               "id": "r1amphitor1ascenseur",
+               "text":"Escalier",
+               "rotationY": 15,
+               "linkedPhotoId":"r1ascenseur"
             },
             {
-               "id": "M07tocouloirr0",
-               "text":"Couloir RDC",
-               "rotationY": 128,
-               "linkedPhotoId":"couloir-r02"
+               "id": "r1amphitor1toilette",
+               "text":"Escalier",
+               "rotationY": -69,
+               "linkedPhotoId":"r1toilette"
             }
          ]
       },
@@ -199,21 +205,27 @@
             }
          ]
       },
-      "entree-r0":{
+      "r1toilette":{
          "rotationOffset": -20,
-         "uri":"entree-r0.jpg",
+         "uri":"r1toilette.jpg",
          "tooltips":[
             {
-               "id": "entreer0tocouloirr0",
-               "text":"Couloir RDC",
-               "rotationY": -140,
-               "linkedPhotoId":"couloir-r0"
+               "id": "r1toilettetor1amphi",
+               "text":"Amphi modulable",
+               "rotationY": 65,
+               "linkedPhotoId":"r1amphi"
             },
             {
-               "id": "entreer0to1eretage",
-               "text":"1er Etage",
-               "rotationY": 50,
-               "linkedPhotoId":"patio"
+               "id": "r1toilettetorepro",
+               "text":"RDC",
+               "rotationY": 10,
+               "linkedPhotoId":"repro"
+            },
+            {
+               "id": "r1toilettetor2toilette",
+               "text":"2eme etage",
+               "rotationY": -20,
+               "linkedPhotoId":"r2toilette"
             }
          ]
       },
