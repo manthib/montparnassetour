@@ -1,6 +1,6 @@
 {
    "nav_icon": "chester_icon.png",
-   "firstPhotoId":"hall",
+   "firstPhotoId":"refectoire2",
    "firstPhotoRotation":40,
    "soundEffects": {
       "navButton": {
@@ -271,111 +271,82 @@
             }
          ]
       },
-      "M10":{
-         "rotationOffset": -130,
-         "uri":"M10.jpg",
+      "refectoire":{
+         "rotationOffset": -100,
+         "uri":"refectoire.jpg",
          "tooltips":[
             {
-               "id": "M10toincubateur",
-               "text":"Incubateur",
-               "rotationY": 70,
-               "linkedPhotoId":"incubateur"
+               "id": "refectoiretor2toilette",
+               "text":"2ème etage",
+               "rotationY": -27,
+               "linkedPhotoId":"r2toilette"
             },
             {
-               "id": "M10todetenter1",
-               "text":"Espace détente",
-               "rotationY": -77,
-               "linkedPhotoId":"detente-r1"
-            },
-            {
-               "id": "M10tocafet",
-               "text":"Réfectoire",
-               "rotationY": 38,
-               "linkedPhotoId":"refectoire"
+               "id": "refectoiretirefectoire2",
+               "text":"Espace etudiants",
+               "rotationY": 90,
+               "linkedPhotoId":"refectoire2"
             }
          ]
       },
-      "incubateur":{
+      "refectoire2":{
          "rotationOffset": 110,
-         "uri":"incubateur.jpg",
+         "uri":"refectoire2.jpg",
          "tooltips":[
             {
-               "id": "incubateurtodetenter1",
-               "text":"Espace détente",
+               "id": "refectoire2torefectoire",
+               "text":"Cafet'",
+               "rotationY": 70,
+               "linkedPhotoId":"refectoire"
+            },
+            {
+               "id": "refectoire2tor2toilette",
+               "text":"2ème etage",
+               "rotationY": 100,
+               "linkedPhotoId":"r2toilette"
+            },
+            {
+               "id": "refectoire2tor2ascenseur",
+               "text":"2ème Etage",
+               "rotationY": -95,
+               "linkedPhotoId":"r2ascenseur"
+            },
+            {
+               "id": "refectoire2tofablab",
+               "text":"Fablab",
+               "rotationY": -60,
+               "linkedPhotoId":"fablab"
+            },
+            {
+               "id": "refectoire2toterasse",
+               "text":"Terasse",
+               "rotationY": -2,
+               "linkedPhotoId":"terasse"
+            }
+
+         ]
+      },
+      "fablab":{
+         "rotationOffset": 0,
+         "uri":"fablab.jpg",
+         "tooltips":[
+            {
+               "id": "fablabtorefectoire2",
+               "text":"espace étudiants",
                "rotationY": -90,
-               "linkedPhotoId":"M10"
+               "linkedPhotoId":"refectoire2"
             }
          ]
       },
-      "couloir-r1":{
-         "rotationOffset": 140,
-         "uri":"couloir-r1.jpg",
+      "terasse":{
+         "rotationOffset": 0,
+         "uri":"terasse.jpg",
          "tooltips":[
             {
-               "id": "couloirr1todetenter1",
-               "text":"Espace détente",
-               "rotationY": 146,
-               "linkedPhotoId":"detente-r1"
-            },
-            {
-               "id": "couloirr1toM13",
-               "text":"Salle étudiants",
-               "rotationY": -80,
-               "linkedPhotoId":"M13"
-            },
-            {
-               "id": "couloirr1toM17",
-               "text":"Labo Electronique",
-               "rotationY": 65,
-               "linkedPhotoId":"M17"
-            },
-            {
-               "id": "couloirr1toM18",
-               "text":"Salle projets",
-               "rotationY": 101,
-               "linkedPhotoId":"M18"
-            },
-            {
-               "id": "couloirtopatio",
-               "text":"Patio",
-               "rotationY": -34,
-               "linkedPhotoId":"patio"
-            }
-         ]
-      },
-      "couloir-r12":{
-         "rotationOffset": 140,
-         "uri":"couloir-r1.jpg",
-         "tooltips":[
-            {
-               "id": "couloirr1todetenter1",
-               "text":"Espace détente",
-               "rotationY": 146,
-               "linkedPhotoId":"detente-r1"
-            },
-            {
-               "id": "couloirr1toM13",
-               "text":"Salle étudiants",
-               "rotationY": -80,
-               "linkedPhotoId":"M13"
-            },
-            {
-               "id": "couloirr1toM17",
-               "text":"Labo Electronique",
-               "rotationY": 65,
-               "linkedPhotoId":"M17"
-            },
-            {
-               "id": "couloirr1toM18",
-               "text":"Salle projets",
-               "rotationY": 101,
-               "linkedPhotoId":"M18"
-            },
-            {
-               "id": "couloirtopatio",
-               "text":"Patio",
-               "rotationY": -34,
-               "linkedPhotoId":"patio"
+               "id": "terassetorefectoireé",
+               "text":"Espace étudiants",
+               "rotationY": -130,
+               "linkedPhotoId":"refectoire2"
             }
          ]
       },
@@ -433,24 +404,7 @@
             }
          ]
       },
-      "fablab":{
-         "rotationOffset": -100,
-         "uri":"fablab.jpg",
-         "tooltips":[
-            {
-               "id": "fablabtoM13",
-               "text":"Salle étudiants",
-               "rotationY": -80,
-               "linkedPhotoId":"M13"
-            },
-            {
-               "id": "fablabtopatio",
-               "text":"Patio",
-               "rotationY": 136,
-               "linkedPhotoId":"patio"
-            }
-         ]
-      },
+
       "patio":{
          "rotationOffset": 80,
          "uri":"patio-r1.jpg",
