@@ -1,6 +1,6 @@
 {
    "nav_icon": "chester_icon.png",
-   "firstPhotoId":"fablab",
+   "firstPhotoId":"terasse",
    "firstPhotoRotation":40,
    "soundEffects": {
       "navButton": {
@@ -249,9 +249,9 @@
                "id": "ljkddjkzdln",
                "type": "image",
                "rotationY": -53,
-               "width": 1.020,
-               "height": 1.388,
-               "source":"chalkboard-menu.jpg",
+               "width": 1.088,
+               "height": 816,
+               "source":"salle-r2escalier.JPG",
                "attribution": "Photo by currystrumpet on flickr",
                "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
             }
@@ -302,6 +302,17 @@
                "text":"Escalier",
                "rotationY": -86,
                "linkedPhotoId":"r2toilette"
+            },
+            {
+               "id": "incursionsalledecours",
+               "type": "panelimage",
+               "rotationY": -120,
+               "width": 2.176,
+               "height": 1.632,
+               "text": "Salles de cours",
+               "source":"salle-r2escalier.JPG",
+               "attribution": "Photo salles de cours",
+               "attributionUri": ""
             }
          ]
       },
@@ -320,6 +331,17 @@
                "text":"1er étage",
                "rotationY": 10,
                "linkedPhotoId":"r1toilette"
+            },
+            {
+               "id": "incursionsalledecours",
+               "type": "panelimage",
+               "rotationY": 80,
+               "width": 2.176,
+               "height": 1.632,
+               "text": "Salles de cours",
+               "source":"salle-r2escalier.JPG",
+               "attribution": "Photo salles de cours",
+               "attributionUri": ""
             }
          ]
       },
@@ -338,6 +360,26 @@
                "text":"Espace etudiants",
                "rotationY": 90,
                "linkedPhotoId":"refectoire2"
+            },
+            {
+               "id": "incursionvuetoureiffelcafet",
+               "type": "panelimage",
+               "rotationY": -100,
+               "width": 1.793,
+               "height": 2.040,
+               "text": "Vue sur la Tour Eiffel",
+               "source":"toureiffel-refectoire.JPG",
+               "attribution": "Vue sur la Tour Eiffel",
+               "attributionUri": ""
+            },
+            {
+               "id": "incuresiontp",
+               "type": "textblock",
+               "rotationY": 140,
+               "width": 1,
+               "height": 1,
+               "title": "Salles de TP"
+
             }
          ]
       },
@@ -415,6 +457,22 @@
                "text":"Espace étudiants",
                "rotationY": -130,
                "linkedPhotoId":"refectoire2"
+            },
+            {
+               "id": "incuresiontoureiffel",
+               "type": "textblock",
+               "rotationY": 75,
+               "width": 1,
+               "height": 1.5,
+               "title": "Vue sur la Tour Eiffel"
+            },
+            {
+               "id": "incuresiontourmont",
+               "type": "textblock",
+               "rotationY": -30,
+               "width": 1.5,
+               "height": 1.5,
+               "title": "Vue sur la Tour Montparnasse"
             }
          ]
       }
