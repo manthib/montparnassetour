@@ -1,0 +1,480 @@
+{
+   "nav_icon": "chester_icon.png",
+   "firstPhotoId":"accueil",
+   "firstPhotoRotation":40,
+   "soundEffects": {
+      "navButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         },
+         "onClick": {
+            "uri": "menu-click.wav",
+            "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+         }
+      },
+      "infoButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         }
+      }
+
+   },
+   "photos":{
+      "accueil":{
+         "rotationOffset": 0,
+         "uri":"accueil.jpg",
+         "tooltips":[
+            {
+               "id": "accueiltodetenter0",
+               "text":"Espace détente",
+               "rotationY": -24,
+               "linkedPhotoId":"detente-r0"
+            },
+            {
+               "id": "accueiltoamphi",
+               "text":"Grand Amphithéâtre",
+               "rotationY": -81,
+               "linkedPhotoId":"amphi"
+            },
+            {
+               "id": "accueiltor+1",
+               "text":"1er Etage",
+               "rotationY": 95,
+               "linkedPhotoId":"detente-r1"
+            }
+         ]
+      },
+      "accueil2":{
+         "rotationOffset": 0,
+         "uri":"accueil.jpg",
+         "tooltips":[
+            {
+               "id": "accueiltodetenter0",
+               "text":"Espace détente",
+               "rotationY": -24,
+               "linkedPhotoId":"detente-r0"
+            },
+            {
+               "id": "accueiltoamphi",
+               "text":"Grand Amphithéâtre",
+               "rotationY": -81,
+               "linkedPhotoId":"amphi"
+            },
+            {
+               "id": "accueiltor+1",
+               "text":"1er Etage",
+               "rotationY": 95,
+               "linkedPhotoId":"detente-r1"
+            }
+         ]
+      },
+      "amphi":{
+         "rotationOffset": 35,
+         "uri":"amphi.jpg",
+         "tooltips":[
+            {
+               "id": "amphitoaccueil",
+               "text":"Accueil",
+               "rotationY": -106,
+               "linkedPhotoId":"accueil"
+            },
+            {
+               "id": "amphitoaccueil2",
+               "text":"Accueil",
+               "rotationY": -52,
+               "linkedPhotoId":"accueil2"
+            }
+         ]
+      },
+
+      "detente-r0":{
+         "rotationOffset": 40,
+         "uri":"detente-r0.jpg",
+         "tooltips":[
+            {
+               "id": "detenter0toaccueil",
+               "text":"Accueil",
+               "rotationY": -20,
+               "linkedPhotoId":"accueil"
+            },
+            {
+               "id": "detenter0tocouloirr0",
+               "text":"couloir RDC",
+               "rotationY": -81,
+               "linkedPhotoId":"couloir-r0"
+            }
+         ]
+      },
+      "couloir-r0":{
+         "rotationOffset": -30,
+         "uri":"couloir-r0.jpg",
+         "tooltips":[
+            {
+               "id": "couloirr0toM07",
+               "text":"Labo Energie",
+               "rotationY": 64,
+               "linkedPhotoId":"M07"
+            },
+            {
+               "id": "couloirr0todetenter0",
+               "text":"Espace détente",
+               "rotationY": 151,
+               "linkedPhotoId":"detente-r0"
+            },
+            {
+               "id": "couloirr0tohall",
+               "text":"Hall",
+               "rotationY": -29,
+               "linkedPhotoId":"entree-r0"
+            }
+         ]
+      },
+      "couloir-r02":{
+         "rotationOffset": -30,
+         "uri":"couloir-r0.jpg",
+         "tooltips":[
+            {
+               "id": "couloirr0toM07",
+               "text":"Labo Energie",
+               "rotationY": 64,
+               "linkedPhotoId":"M07"
+            },
+            {
+               "id": "couloirr0todetenter0",
+               "text":"Espace détente",
+               "rotationY": 151,
+               "linkedPhotoId":"detente-r0"
+            },
+            {
+               "id": "couloirr0tohall",
+               "text":"Hall",
+               "rotationY": -29,
+               "linkedPhotoId":"entree-r0"
+            }
+         ]
+      },
+      "M07":{
+         "rotationOffset": 80,
+         "uri":"M07.jpg",
+         "tooltips":[
+            {
+               "id": "M07tocouloirr0",
+               "text":"Couloir RDC",
+               "rotationY": 35,
+               "linkedPhotoId":"couloir-r0"
+            },
+            {
+               "id": "M07tocouloirr0",
+               "text":"Couloir RDC",
+               "rotationY": 128,
+               "linkedPhotoId":"couloir-r02"
+            }
+         ]
+      },
+      "112399":{
+         "rotationOffset": 90,
+         "uri":"the-chester--v112399.prefilter.jpg",
+         "tooltips":[
+            {
+               "id": "zalkzlzaaaazjhkbjln",
+               "text":"Restaurant",
+               "rotationY": -115,
+               "linkedPhotoId":"112362"
+            },
+            {
+               "id": "kzdkezkezkzeln",
+               "type": "video",
+               "rotationY": 80,
+               "width": 2.560,
+               "height": 1.240,
+               "sourceChrome": "Three-Cocktails.webm",
+               "sourceSafari": "Three-Cocktails.mp4",
+               "muted":true
+            },
+            {
+               "id": "ljkddjkzdln",
+               "type": "image",
+               "rotationY": -53,
+               "width": 1.020,
+               "height": 1.388,
+               "source":"chalkboard-menu.jpg",
+               "attribution": "Photo by currystrumpet on flickr",
+               "attributionUri": "https://www.flickr.com/photos/currystrumpet/7895715748"
+            }
+         ]
+      },
+      "entree-r0":{
+         "rotationOffset": -20,
+         "uri":"entree-r0.jpg",
+         "tooltips":[
+            {
+               "id": "entreer0tocouloirr0",
+               "text":"Couloir RDC",
+               "rotationY": -140,
+               "linkedPhotoId":"couloir-r0"
+            },
+            {
+               "id": "entreer0to1eretage",
+               "text":"1er Etage",
+               "rotationY": 50,
+               "linkedPhotoId":"patio"
+            }
+         ]
+      },
+      "detente-r1":{
+         "rotationOffset": 140,
+         "uri":"detente-r1.jpg",
+         "tooltips":[
+            {
+               "id": "detenter1toaccueil",
+               "text":"Accueil",
+               "rotationY": 8,
+               "linkedPhotoId":"accueil"
+            },
+            {
+               "id": "detenter1torefectoire",
+               "text":"Réfectoire",
+               "rotationY": 21,
+               "linkedPhotoId":"refectoire"
+            },
+            {
+               "id": "detenter1toincubateur",
+               "text":"Incubateur",
+               "rotationY": 147,
+               "linkedPhotoId":"M10"
+            },
+            {
+               "id": "detenter1tocouloirr1",
+               "text":"Couloir",
+               "rotationY": -50,
+               "linkedPhotoId":"couloir-r1"
+            }
+         ]
+      },
+      "refectoire":{
+         "rotationOffset": -160,
+         "uri":"refectoire.jpg",
+         "tooltips":[
+            {
+               "id": "refectoiretodetenter1",
+               "text":"Espace détente",
+               "rotationY": -86,
+               "linkedPhotoId":"detente-r1"
+            },
+            {
+               "id": "cafettoincubateur",
+               "text":"Incubateur",
+               "rotationY": 143,
+               "linkedPhotoId":"M10"
+            }
+         ]
+      },
+      "M10":{
+         "rotationOffset": -130,
+         "uri":"M10.jpg",
+         "tooltips":[
+            {
+               "id": "M10toincubateur",
+               "text":"Incubateur",
+               "rotationY": 70,
+               "linkedPhotoId":"incubateur"
+            },
+            {
+               "id": "M10todetenter1",
+               "text":"Espace détente",
+               "rotationY": -77,
+               "linkedPhotoId":"detente-r1"
+            },
+            {
+               "id": "M10tocafet",
+               "text":"Réfectoire",
+               "rotationY": 38,
+               "linkedPhotoId":"refectoire"
+            }
+         ]
+      },
+      "incubateur":{
+         "rotationOffset": 110,
+         "uri":"incubateur.jpg",
+         "tooltips":[
+            {
+               "id": "incubateurtodetenter1",
+               "text":"Espace détente",
+               "rotationY": -90,
+               "linkedPhotoId":"M10"
+            }
+         ]
+      },
+      "couloir-r1":{
+         "rotationOffset": 140,
+         "uri":"couloir-r1.jpg",
+         "tooltips":[
+            {
+               "id": "couloirr1todetenter1",
+               "text":"Espace détente",
+               "rotationY": 146,
+               "linkedPhotoId":"detente-r1"
+            },
+            {
+               "id": "couloirr1toM13",
+               "text":"Salle étudiants",
+               "rotationY": -80,
+               "linkedPhotoId":"M13"
+            },
+            {
+               "id": "couloirr1toM17",
+               "text":"Labo Electronique",
+               "rotationY": 65,
+               "linkedPhotoId":"M17"
+            },
+            {
+               "id": "couloirr1toM18",
+               "text":"Salle projets",
+               "rotationY": 101,
+               "linkedPhotoId":"M18"
+            },
+            {
+               "id": "couloirtopatio",
+               "text":"Patio",
+               "rotationY": -34,
+               "linkedPhotoId":"patio"
+            }
+         ]
+      },
+      "couloir-r12":{
+         "rotationOffset": 140,
+         "uri":"couloir-r1.jpg",
+         "tooltips":[
+            {
+               "id": "couloirr1todetenter1",
+               "text":"Espace détente",
+               "rotationY": 146,
+               "linkedPhotoId":"detente-r1"
+            },
+            {
+               "id": "couloirr1toM13",
+               "text":"Salle étudiants",
+               "rotationY": -80,
+               "linkedPhotoId":"M13"
+            },
+            {
+               "id": "couloirr1toM17",
+               "text":"Labo Electronique",
+               "rotationY": 65,
+               "linkedPhotoId":"M17"
+            },
+            {
+               "id": "couloirr1toM18",
+               "text":"Salle projets",
+               "rotationY": 101,
+               "linkedPhotoId":"M18"
+            },
+            {
+               "id": "couloirtopatio",
+               "text":"Patio",
+               "rotationY": -34,
+               "linkedPhotoId":"patio"
+            }
+         ]
+      },
+      "M18":{
+         "rotationOffset": 0,
+         "uri":"M18.jpg",
+         "tooltips":[
+            {
+               "id": "M18tocouloir",
+               "text":"Couloir",
+               "rotationY": 45,
+               "linkedPhotoId":"couloir-r1"
+            },
+            {
+               "id": "M18tocouloir",
+               "text":"Couloir",
+               "rotationY": -36,
+               "linkedPhotoId":"couloir-r12"
+            }
+         ]
+      },
+      "M17":{
+         "rotationOffset": -100,
+         "uri":"M17.jpg",
+         "tooltips":[
+            {
+               "id": "M17tocouloir",
+               "text":"Couloir",
+               "rotationY": 165,
+               "linkedPhotoId":"couloir-r1"
+            },
+            {
+               "id": "M17tocouloir",
+               "text":"Couloir",
+               "rotationY": -104,
+               "linkedPhotoId":"couloir-r12"
+            }
+         ]
+      },
+      "M13":{
+         "rotationOffset": -100,
+         "uri":"M13.jpg",
+         "tooltips":[
+            {
+               "id": "M13tocouloir",
+               "text":"Couloir",
+               "rotationY": -130,
+               "linkedPhotoId":"couloir-r1"
+            },
+            {
+               "id": "M13tofablab",
+               "text":"Fablab",
+               "rotationY": 118,
+               "linkedPhotoId":"fablab"
+            }
+         ]
+      },
+      "fablab":{
+         "rotationOffset": -100,
+         "uri":"fablab.jpg",
+         "tooltips":[
+            {
+               "id": "fablabtoM13",
+               "text":"Salle étudiants",
+               "rotationY": -80,
+               "linkedPhotoId":"M13"
+            },
+            {
+               "id": "fablabtopatio",
+               "text":"Patio",
+               "rotationY": 136,
+               "linkedPhotoId":"patio"
+            }
+         ]
+      },
+      "patio":{
+         "rotationOffset": 80,
+         "uri":"patio-r1.jpg",
+         "tooltips":[
+            {
+               "id": "patiotocouloirr1",
+               "text":"Couloir",
+               "rotationY": 105,
+               "linkedPhotoId":"couloir-r1"
+            },
+            {
+               "id": "Patiotohall",
+               "text":"Hall",
+               "rotationY": 60,
+               "linkedPhotoId":"entree-r0"
+            },
+            {
+               "id": "Patiotofablab",
+               "text":"Fablab",
+               "rotationY": 120,
+               "linkedPhotoId":"fablab"
+            }
+         ]
+      }
+
+   }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "amuseo-vr-tour",
+  "version": "0.0.1",
+  "repository": "https://github.com/manthib/AmuseoVRTour",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run open && node node_modules/react-native/local-cli/cli.js start",
+    "bundle": "node tools/bundle.js",
+    "open": "node -e \"require('xopen')('http://localhost:8081/src/TourSample/vr/')\""
+  },
+  "dependencies": {
+    "ovrui": "~2.0.0",
+    "prop-types": "^15.6.2",
+    "react": "16.0.0",
+    "react-native": "~0.48.0",
+    "react-vr": "~2.0.0",
+    "react-vr-web": "~2.0.0",
+    "simple-raycaster": "^1.1.0",
+    "three": "^0.87.0"
+  },
+  "devDependencies": {
+    "acorn": "^6.0.4",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-react-native": "^4.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "xopen": "1.0.0"
+  }
+}
