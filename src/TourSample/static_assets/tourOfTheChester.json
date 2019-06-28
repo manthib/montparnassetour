@@ -229,51 +229,45 @@
             }
          ]
       },
-      "detente-r1":{
-         "rotationOffset": 140,
-         "uri":"detente-r1.jpg",
+      "r2ascenseur":{
+         "rotationOffset": 40,
+         "uri":"r2ascenseur.jpg",
          "tooltips":[
             {
-               "id": "detenter1toaccueil",
-               "text":"Accueil",
+               "id": "r2ascenseurtor1ascenseur",
+               "text":"1er Etage",
+               "rotationY": 83,
+               "linkedPhotoId":"r1ascenseur"
+            },
+            {
+               "id": "r2ascenseurtorefectoire2",
+               "text":"4ème etage",
                "rotationY": 8,
-               "linkedPhotoId":"accueil"
+               "linkedPhotoId":"refectoire2"
             },
             {
-               "id": "detenter1torefectoire",
-               "text":"Réfectoire",
-               "rotationY": 21,
-               "linkedPhotoId":"refectoire"
-            },
-            {
-               "id": "detenter1toincubateur",
-               "text":"Incubateur",
-               "rotationY": 147,
-               "linkedPhotoId":"M10"
-            },
-            {
-               "id": "detenter1tocouloirr1",
-               "text":"Couloir",
-               "rotationY": -50,
-               "linkedPhotoId":"couloir-r1"
+               "id": "r2ascenseurtor2toilette",
+               "text":"Escalier",
+               "rotationY": -86,
+               "linkedPhotoId":"r2toilette"
             }
          ]
       },
-      "refectoire":{
-         "rotationOffset": -160,
-         "uri":"refectoire.jpg",
+      "r2toilette":{
+         "rotationOffset": 0,
+         "uri":"r2toilette.jpg",
          "tooltips":[
             {
-               "id": "refectoiretodetenter1",
-               "text":"Espace détente",
-               "rotationY": -86,
-               "linkedPhotoId":"detente-r1"
+               "id": "r2toilettetorefectoire",
+               "text":"4ème etage",
+               "rotationY": -19,
+               "linkedPhotoId":"refectoire"
             },
             {
-               "id": "cafettoincubateur",
-               "text":"Incubateur",
-               "rotationY": 143,
-               "linkedPhotoId":"M10"
+               "id": "r2toilettetor1toilettte",
+               "text":"1er étage",
+               "rotationY": 10,
+               "linkedPhotoId":"r1toilette"
             }
          ]
       },
