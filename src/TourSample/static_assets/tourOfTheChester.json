@@ -1,6 +1,6 @@
 {
    "nav_icon": "chester_icon.png",
-   "firstPhotoId":"terasse",
+   "firstPhotoId":"hall",
    "firstPhotoRotation":40,
    "soundEffects": {
       "navButton": {

@@ -1,4 +1,4 @@
-## Running
+npm run bundle## Running
 
 ```
 npm i
